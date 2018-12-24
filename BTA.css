@@ -1,0 +1,42 @@
+//META{"name":"BTA","description":"Big Anime Tiddies","author":"DotSpecific","version":"1"}*//{}
+/* "ClearVision - Amethyst v5" by @Zerthox */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #da27e6;
+	--hover-color: #a71eb3;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://zerthox.github.io/ClearVision/images/amethyst.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
